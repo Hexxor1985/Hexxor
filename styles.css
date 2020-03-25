@@ -1,0 +1,74 @@
+* 
+/* whole page*/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-image: url(breakfast.jpg) ;
+    background-size: cover; 
+    background-position: center;
+    box-sizing: border-box;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    
+
+}
+.top-menu
+{
+   background: rgb(0,100,0);
+   text-align: start; 
+}
+.top-menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.top-menu ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.top-menu ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .top-menu ul li:hover
+{
+    background: rgb(0, 133, 0);
+    border-radius: 5px ;
+}
+
+/* recepies.html */
+.box 
+{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: darkslategray;
+    display: flex;
+
+}
+.boxleft
+{
+flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin: 10px;
+}
+.boxright
+{
+    flex: 70%;
+    background-color: rgb(45, 110, 19);
+    padding: 20px;
+    margin: 10px;  
+
+}
